@@ -35,6 +35,8 @@ end;
 Here is the result:<br/>
 ![result](https://github.com/Dark-Skull-Software-delphi-articles/image_mask_tutorial/raw/master/readme_images/result.png)
 
+You can resize the window, the sprite will be redrawn immediatly.
+
 ************************
 Dark Skull Software<br/>
 http://www.darkskull.net
