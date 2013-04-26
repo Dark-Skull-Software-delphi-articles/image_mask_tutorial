@@ -12,9 +12,13 @@ If you want to build a game, you can't use a TImage for each sprite, you'll get 
 Here is the solution: use image masks.
 
 You'll need:
-* the image (sprite) on black background 
-* the mask, a black & white picture where the background is white and the sprite is black.
-* a background image
+* the image (sprite) on black background <br/>
+![image on black background](https://github.com/Dark-Skull-Software-delphi-articles/image_mask_tutorial/raw/master/readme_images/etface.png)
+* the mask, a black & white picture where the background is white and the sprite is black<br/>
+![mask image](https://github.com/Dark-Skull-Software-delphi-articles/image_mask_tutorial/raw/master/readme_images/etmask.png)
+* a background image<br/>
+![background image](https://github.com/Dark-Skull-Software-delphi-articles/image_mask_tutorial/raw/master/readme_images/backtile.png) 
+
  
 Then, once the background is drawn, you just need to draw the mask in "And" mode, then the image in "Paint" mode :
 
@@ -27,6 +31,9 @@ begin
   Canvas.Draw(XPos, YPos, Bitmap);
 end;
 ```
+
+Here is the result:<br/>
+![result](https://github.com/Dark-Skull-Software-delphi-articles/image_mask_tutorial/raw/master/readme_images/result.png)
 
 ************************
 Dark Skull Software<br/>
